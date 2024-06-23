@@ -33,7 +33,7 @@ class Guilds extends Api{
         }
 
         if($obGuilds == false){
-            throw new Exception('Nenhuma guild foi encontrada.', 404);
+            throw new Exception('No guilds found.', 404);
         }
 
         return $guilds;
